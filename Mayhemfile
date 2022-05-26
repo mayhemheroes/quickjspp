@@ -1,5 +1,5 @@
 project: rnshah9/quickjspp
-target: quickjspp
+target: qjs
 
 cmds:
   - cmd: /repo/build/qjs @@
