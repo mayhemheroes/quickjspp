@@ -2,4 +2,4 @@ project: quickjspp
 target: qjs
 
 cmds:
-  - cmd: /repo/build/qjs @@
+  - cmd: /install/bin/qjs @@
