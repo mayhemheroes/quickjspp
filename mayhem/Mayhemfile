@@ -1,5 +1,5 @@
 project: quickjspp
-target: qjs
+target: eval
 
 cmds:
-  - cmd: /install/bin/qjs @@
+  - cmd: /fuzz_eval
