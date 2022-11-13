@@ -18,3 +18,4 @@ RUN clang++ mayhem/fuzz_eval.cpp  -fsanitize=address,fuzzer -std=c++17 -lquickjs
 
 FROM ubuntu:20.04 as package
 COPY --from=builder /fuzz /fuzz_eval
+COPY --from=builder /install /install
