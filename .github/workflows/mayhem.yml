@@ -51,7 +51,8 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile
+          - mayhem/Mayhemfile_qjs
+          - mayhem/Mayhemfile_eval
 
     steps:
       - uses: actions/checkout@v2

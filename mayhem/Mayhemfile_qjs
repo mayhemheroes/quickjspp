@@ -1,0 +1,6 @@
+project: quickjspp
+target: qjs
+
+cmds:
+  - cmd: /install/bin/qjs @@
+image: ghcr.io/rnshah9/playground:quickjspp
